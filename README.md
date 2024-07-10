@@ -54,6 +54,13 @@ onTap: () {
   <video height="450" src="https://github.com/mayuuu05/AdvFlutterCh1/assets/149376263/d13a48fd-80f1-4658-a52e-7ab1b404b628" />
 </div>
 
+# 1.2 Create Registration Page using Stepper Widget
 
+<div> 
+  <img src = "https://github.com/mayuuu05/AdvFlutterCh1/assets/149376263/7e1f5abc-1dce-452a-bd86-2bb9d6076191"  height=35% width=22%  />
+   <img src = "https://github.com/mayuuu05/AdvFlutterCh1/assets/149376263/8f310ed0-4507-4750-920c-7627f4c147ff"  height=35% width=22%  />
+
+
+</div>
 
 
