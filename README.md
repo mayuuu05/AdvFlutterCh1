@@ -1,4 +1,4 @@
-![1 4=1](https://github.com/mayuuu05/AdvFlutterCh1/assets/149376263/0d04ef6b-aa52-406f-8b93-dc3810c93566)# advflutter_ch1
+# advflutter_ch1
 
 
 
@@ -48,8 +48,10 @@ onTap: () {
 # 1.4 Provider & Change Theme using Provider
 
 <div> 
-  <img src = "https://github.com/mayuuu05/AdvFlutterCh1/assets/149376263/93725978-3223-4705-bf47-50f3277d34bd"  height=35% width=22%  />
+  <img src = "https://github.com/mayuuu05/AdvFlutterCh1/assets/149376263/0d04ef6b-aa52-406f-8b93-dc3810c93566"  height=35% width=22%  />
    <img src = "https://github.com/mayuuu05/AdvFlutterCh1/assets/149376263/93725978-3223-4705-bf47-50f3277d34bd"  height=35% width=22%  />
+
+  <video height="450" src="https://github.com/mayuuu05/AdvFlutterCh1/assets/149376263/2a61b559-fa06-47e6-bc7d-f5496b347f24" />
 </div>
 
 
