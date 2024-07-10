@@ -60,9 +60,14 @@ class ChangeTheme extends StatelessWidget {
                     : Icons.sunny,size: 30,
                 color: Theme.of(context).colorScheme.primary,
               ),
-              title: const Text('Dark Mode',style: TextStyle(
-                fontSize: 20
-              ),),
+              title: (userProfileProviderTrue.isDark)
+              ?Text('Dark Mode',style: TextStyle(
+                  fontSize: 20
+              ),)
+                  :Text('Light Mode',style: TextStyle(
+                  fontSize: 20
+              ),)
+                ,
               trailing: Switch(
                   inactiveThumbColor: Theme.of(context).colorScheme.primary,
                   activeColor: Theme.of(context).colorScheme.primary,

@@ -1,3 +1,5 @@
+import 'package:advflutter_ch1/Screen/1.2/page2.dart';
+import 'package:advflutter_ch1/Screen/1.2/stepper_example.dart';
 import 'package:advflutter_ch1/Screen/1.4/view/change_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -39,7 +41,7 @@ class AdvFlutter_ch1 extends StatelessWidget {
             ? ThemeMode.dark
             : ThemeMode.light,
         debugShowCheckedModeBanner: false,
-        home: ChangeTheme(),
+        home: StepperExamplePage2(),
       ),
     );
   }
