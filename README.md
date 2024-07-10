@@ -52,7 +52,13 @@ onTap: () {
    <img src = "https://github.com/mayuuu05/AdvFlutterCh1/assets/149376263/8f310ed0-4507-4750-920c-7627f4c147ff"  height=35% width=22%  />
 
 
+# 1.3 Provider Tree
 </div>
+<div align="center">
+<img height="550" src="https://github.com/mayuuu05/AdvFlutterCh1/assets/149376263/011398fb-a4dd-43c6-b891-6c3460c110e2"/>
+</div>
+
+
 
 # 1.4 Provider & Change Theme using Provider
 
