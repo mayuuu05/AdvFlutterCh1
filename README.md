@@ -164,4 +164,20 @@ return Consumer<Counter>(
 </div>
 
 
+# 1.5 Quotes Data Solving with Provider
+
+<div> 
+  <img src = "https://github.com/mayuuu05/AdvFlutterCh1/assets/149376263/3e47c158-666c-421b-b81f-552dd175fa0d"  height=35% width=22%  />
+   <img src = "https://github.com/mayuuu05/AdvFlutterCh1/assets/149376263/3cefafc2-229c-4e4c-b642-fe5f95a80ad6"  height=35% width=22%  />
+   <img src = "https://github.com/mayuuu05/AdvFlutterCh1/assets/149376263/e012bfd0-c309-4cda-835f-557b494382e9"  height=35% width=22%  />
+   <img src = "https://github.com/mayuuu05/AdvFlutterCh1/assets/149376263/49a6c82f-0763-46fd-8c71-d76a8cf5191a"  height=35% width=22%  />
+
+  <video height="450" src="https://github.com/mayuuu05/AdvFlutterCh1/assets/149376263/06d14c05-9167-4b99-bbd2-254dea900ed4" />
+</div>
+
+
+
+
+
+
 
