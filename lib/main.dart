@@ -1,6 +1,8 @@
 import 'package:advflutter_ch1/Screen/1.2/page2.dart';
 import 'package:advflutter_ch1/Screen/1.2/stepper_example.dart';
 import 'package:advflutter_ch1/Screen/1.4/view/change_theme.dart';
+import 'package:advflutter_ch1/Screen/1.5/provider/quote_data_provider.dart';
+import 'package:advflutter_ch1/Screen/1.5/view/quote_page.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -16,32 +18,32 @@ class AdvFlutter_ch1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
-      create: (BuildContext context) => UserProfile(),
+      create: (BuildContext context) => QuotesProvider(),
       builder: (context, child) =>  MaterialApp(
-        theme: ThemeData(
-          brightness: Brightness.light,
-          colorScheme: const ColorScheme.light(
-            primary: Colors.purple,
-            onPrimary: Colors.blue,
-            secondary: Colors.green,
-            onSecondary: Colors.redAccent,
-
-          ),
-        ),
-        darkTheme: ThemeData(
-          brightness: Brightness.dark,
-          colorScheme: const ColorScheme.dark(
-            primary: Colors.amber,
-            onPrimary: Colors.pink,
-            secondary: Colors.blue,
-            onSecondary: Colors.green,
-          ),
-        ),
-        themeMode: Provider.of<UserProfile>(context).isDark
-            ? ThemeMode.dark
-            : ThemeMode.light,
+        // theme: ThemeData(
+        //   brightness: Brightness.light,
+        //   colorScheme: const ColorScheme.light(
+        //     primary: Colors.purple,
+        //     onPrimary: Colors.blue,
+        //     secondary: Colors.green,
+        //     onSecondary: Colors.redAccent,
+        //
+        //   ),
+        // ),
+        // darkTheme: ThemeData(
+        //   brightness: Brightness.dark,
+        //   colorScheme: const ColorScheme.dark(
+        //     primary: Colors.amber,
+        //     onPrimary: Colors.pink,
+        //     secondary: Colors.blue,
+        //     onSecondary: Colors.green,
+        //   ),
+        // ),
+        // themeMode: Provider.of<QuotesProvider>(context).isDark
+        //     ? ThemeMode.dark
+        //     : ThemeMode.light,
         debugShowCheckedModeBanner: false,
-        home: StepperExamplePage2(),
+        home: QuoteData(),
       ),
     );
   }
