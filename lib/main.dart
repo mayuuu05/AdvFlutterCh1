@@ -3,13 +3,17 @@ import 'package:advflutter_ch1/Screen/1.2/stepper_example.dart';
 import 'package:advflutter_ch1/Screen/1.4/view/change_theme.dart';
 import 'package:advflutter_ch1/Screen/1.5/provider/quote_data_provider.dart';
 import 'package:advflutter_ch1/Screen/1.5/view/quote_page.dart';
+import 'package:advflutter_ch1/Screen/1.6/provider/onBoardingProvider.dart';
+import 'package:advflutter_ch1/Screen/1.6/view/splashScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'Screen/1.4/provider/changeThemeProvider.dart';
 
-void main() {
-  runApp(const AdvFlutter_ch1());
+void main()
+{
+
+  runApp(AdvFlutter_ch1());
 }
 
 class AdvFlutter_ch1 extends StatelessWidget {
@@ -17,8 +21,8 @@ class AdvFlutter_ch1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
-      create: (BuildContext context) => QuotesProvider(),
+    return  ChangeNotifierProvider(
+      create: (context) => OnboardingProvider(),
       builder: (context, child) =>  MaterialApp(
         // theme: ThemeData(
         //   brightness: Brightness.light,
@@ -39,11 +43,11 @@ class AdvFlutter_ch1 extends StatelessWidget {
         //     onSecondary: Colors.green,
         //   ),
         // ),
-        // themeMode: Provider.of<QuotesProvider>(context).isDark
+        // themeMode: Provider.of<UserProfile>(context).isDark
         //     ? ThemeMode.dark
         //     : ThemeMode.light,
         debugShowCheckedModeBanner: false,
-        home: QuoteData(),
+        home: Splashscreen(),
       ),
     );
   }
