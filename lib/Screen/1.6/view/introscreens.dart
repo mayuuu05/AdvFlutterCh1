@@ -145,7 +145,7 @@ class Introscreen1 extends StatelessWidget {
           style: TextStyle(fontSize: 20),
         ),
         SizedBox(
-          height: height / 10,
+          height: height / 12,
         ),
       ],
     );
