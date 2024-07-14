@@ -176,6 +176,19 @@ return Consumer<Counter>(
 </div>
 
 
+# 1.6 One Time Intro Screen in Flutter 
+
+<div> 
+  <img src = "https://github.com/user-attachments/assets/f912d68d-cdec-4c26-94b5-43c71c77e42b"  height=35% width=22%  />
+   <img src = "https://github.com/user-attachments/assets/aea4213c-252c-440f-9d61-ee6a62d7988f"  height=35% width=22%  />
+   <img src = "https://github.com/user-attachments/assets/3efff2cc-806c-452e-8fb7-ddef93d409ab"  height=35% width=22%  />
+   <img src = "https://github.com/user-attachments/assets/97aa5592-685e-47e6-8222-074486d5b553"  height=35% width=22%  />
+    <img src = "https://github.com/user-attachments/assets/ae893d71-8c8b-4d8c-b079-8009fff55d2e"  height=35% width=22%  />
+
+  <video height="450" src="https://github.com/mayuuu05/AdvFlutterCh1/assets/149376263/06d14c05-9167-4b99-bbd2-254dea900ed4" />
+</div>
+
+
 
 
 
