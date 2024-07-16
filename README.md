@@ -1,4 +1,4 @@
-![1 6(2)=6](https://github.com/user-attachments/assets/b8b43771-6faf-453c-960c-e41fbe250caf)# advflutter_ch1
+# advflutter_ch1
 
 
 
