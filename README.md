@@ -201,8 +201,7 @@ return Consumer<Counter>(
       <img src = "https://github.com/user-attachments/assets/8d3c8c39-0e16-47d1-8191-323109091d37"  height=35% width=22%  />
         <img src = "https://github.com/user-attachments/assets/781d016c-d96f-4437-a7c7-b2bd18d7099e"  height=35% width=22%  />
 
-  <video height="450" src="
-https://github.com/user-attachments/assets/16f6c55c-75ca-49b3-9568-ad477df9fc60" />
+  <video height="450" src="https://github.com/user-attachments/assets/16f6c55c-75ca-49b3-9568-ad477df9fc60" />
 </div>
 
 
