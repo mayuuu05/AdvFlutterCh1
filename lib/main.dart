@@ -6,6 +6,9 @@ import 'package:advflutter_ch1/Screen/1.5/view/quote_page.dart';
 import 'package:advflutter_ch1/Screen/1.6(2)/provider/contectProvider.dart';
 import 'package:advflutter_ch1/Screen/1.6/provider/onBoardingProvider.dart';
 import 'package:advflutter_ch1/Screen/1.6/view/splashScreen.dart';
+import 'package:advflutter_ch1/Screen/1.7/provider/photoGalleryProvider.dart';
+import 'package:advflutter_ch1/Screen/1.7/view/photo_gallery_with_biometric_authentication.dart';
+import 'package:advflutter_ch1/Screen/1.7/view/splashScreenPhotoGallery.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -24,7 +27,7 @@ class AdvFlutter_ch1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  ChangeNotifierProvider(
-      create: (context) => Contectprovider(),
+      create: (context) => Photogalleryprovider(),
       builder: (context, child) =>  MaterialApp(
         // theme: ThemeData(
         //   brightness: Brightness.light,
@@ -49,7 +52,7 @@ class AdvFlutter_ch1 extends StatelessWidget {
         //     ? ThemeMode.dark
         //     : ThemeMode.light,
         debugShowCheckedModeBanner: false,
-        home: ContectPage(),
+        home: Splashscreenphotogallery(),
       ),
     );
   }
