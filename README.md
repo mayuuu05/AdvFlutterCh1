@@ -50,7 +50,9 @@ onTap: () {
 <div> 
   <img src = "https://github.com/mayuuu05/AdvFlutterCh1/assets/149376263/7e1f5abc-1dce-452a-bd86-2bb9d6076191"  height=35% width=22%  />
    <img src = "https://github.com/mayuuu05/AdvFlutterCh1/assets/149376263/8f310ed0-4507-4750-920c-7627f4c147ff"  height=35% width=22%  />
-###Description
+
+  
+  ### Description
   A stepper in Flutter is a widget that displays a sequence of steps in a linear or horizontal flow. It is commonly used in forms and workflows where the user needs to complete a series of steps in a specific order. Each step can contain any type of content, such as text, form fields, or other widgets. The stepper widget provides a way to control the flow of these steps, allowing the user to navigate forward and backward through the steps.
 # 1.3 Provider Tree
 </div>
