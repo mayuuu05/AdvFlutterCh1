@@ -189,8 +189,8 @@ return Consumer<Counter>(
 
   <video height="450" src="https://github.com/user-attachments/assets/913725b4-4cbe-42fe-bb74-4ed75de4987b" />
 </div>
-
-
+#### Discription 
+SharedPreferences in Flutter is a plugin used for storing simple data as key-value pairs, providing a way to persist data across app launches. It's commonly used for storing user preferences, settings, and small amounts of data that need to be retained between sessions.
 
 # 1.6(2) Contact Us Page With Interaction
 
